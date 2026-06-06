@@ -1,0 +1,29 @@
+name: habit_note_app
+description: "A feature-rich Flutter productivity application for notes and task tracking."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Mapping your asset images so the project looks complete
+  assets:
+    - assets/images/empty_note.png
+    - assets/images/habit_logo.png
+    - assets/images/onboarding_1.png
+    - assets/images/onboarding_2.png
+    - assets/images/onboarding_3.png
+    - assets/images/user_placeholder.png
